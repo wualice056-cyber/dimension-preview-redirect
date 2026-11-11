@@ -3,9 +3,9 @@
 This public GitHub Pages site redirects `preview.luxedimension.com` to the
 stable Vercel branch alias while preserving the request path, query and hash.
 
-The redirect target is the Vercel branch alias for
-`codex/rehearsal-eip712-domain-20261111`. If the branch is renamed or removed,
-update `redirect.js` and the fallback URLs in `index.html` and `404.html`.
+The redirect target is the fixed Vercel deployment for commit `85f16a99`. If
+that deployment is pruned, update `redirect.js` and the fallback URLs in
+`index.html` and `404.html`.
 
 Run `node .github/scripts/check-redirect.mjs` to verify the stable domain,
 redirect script and branch alias. This personal account cannot currently run

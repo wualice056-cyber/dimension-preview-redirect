@@ -1,7 +1,7 @@
 const stableUrl = "https://preview.luxedimension.com/";
 const redirectUrl = new URL("/redirect.js", stableUrl);
 const target =
-  "https://dimension-git-codex-rehearsal-eip712-domai-32dd48-luxedimension.vercel.app";
+  "https://dimension-pjx4q6eg9-luxedimension.vercel.app";
 const rehearsalPath = "/exhibitions/base-sepolia-sale-rehearsal-v2";
 
 async function expectOk(url) {

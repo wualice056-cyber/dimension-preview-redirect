@@ -1,5 +1,5 @@
 const destination =
-  "https://dimension-git-codex-rehearsal-eip712-domai-32dd48-luxedimension.vercel.app";
+  "https://dimension-pjx4q6eg9-luxedimension.vercel.app";
 
 document.documentElement.hidden = true;
 window.location.replace(
